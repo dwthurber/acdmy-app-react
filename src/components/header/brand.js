@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, Divider } from 'semantic-ui-react';
+import { Image } from 'semantic-ui-react';
 import logo from '../../images/acdmyA.png';
 
 const style = {

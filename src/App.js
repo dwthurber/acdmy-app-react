@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './images/acdmyA.png';
 import './App.css';
 import { Grid } from 'semantic-ui-react';
 import Nav from './components/header/nav'

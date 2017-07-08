@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Icon } from 'semantic-ui-react';
+import { Grid } from 'semantic-ui-react';
 import Brand from './brand';
 import Settings from './settings'
 import Actions from './actions'
