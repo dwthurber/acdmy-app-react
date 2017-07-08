@@ -3,7 +3,7 @@ import { Grid } from 'semantic-ui-react';
 import Vidyo from './vidyo'
 
 const Video = () => (
-  <Grid.Row className="vidyo bordered">
+  <Grid.Row className="noPadding bordered">
     <Vidyo />
     <Vidyo />
     <Vidyo />

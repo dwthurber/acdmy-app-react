@@ -4,15 +4,3 @@ body {
   font-family: sans-serif;
   background-color: #fcfcfc;
 }
-
-.primaryIcon {
-  color: #467495;
-}
-
-.bordered {
-  border-bottom: 0.5px solid #CCCCCC;
-}
-
-.vidyo {
-  padding: 0px!important;
-}
