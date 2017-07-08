@@ -9,3 +9,21 @@
 .noPadding {
   padding: 0px!important;
 }
+
+.fullHeight {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.collaborationsContainer {
+  flex: 1;
+  overflow: hidden;
+  margin: 0!important;
+}
+
+.verticalMiddle {
+  position: absolute;
+  top: 40%;
+  margin-top: -250px;
+}
