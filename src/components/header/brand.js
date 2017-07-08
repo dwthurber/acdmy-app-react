@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image } from 'semantic-ui-react';
+import { Image, Divider } from 'semantic-ui-react';
 import logo from '../../images/acdmyA.png';
 
 const style = {
@@ -8,8 +8,8 @@ const style = {
 
 const Brand = () => (
   <div>
-    <Image src={logo} height="20" avatar />
-    <span style={style}>Acdmy.io</span>
+    <Image src={logo} height="20" avatar spaced='right' />
+    <span style={style}>Virtual Classroom of the Future</span>
   </div>
 )
 

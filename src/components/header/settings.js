@@ -6,7 +6,7 @@ const Settings = () => (
   <div>
     <Icon name='alarm' circular size='small' color='grey' />
     <Icon name='help' circular size='small' color='grey' />
-    <Image src={user} height="20" avatar />
+    <Image src={user} height="20" avatar spaced='left' />
   </div>
 )
 

@@ -2,12 +2,17 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #fcfcfc;
 }
 
 .primaryIcon {
   color: #467495;
 }
 
-.nav {
+.bordered {
   border-bottom: 0.5px solid #CCCCCC;
+}
+
+.vidyo {
+  padding: 0px!important;
 }

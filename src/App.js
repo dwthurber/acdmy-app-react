@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import logo from './images/acdmyA.png';
 import './App.css';
-import Nav from './components/header/header'
+import { Grid } from 'semantic-ui-react';
+import Nav from './components/header/nav'
+import Video from './components/video/video'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <Grid padded>
         <Nav />
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+        <Video />
+      </Grid>
     );
   }
 }
