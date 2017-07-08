@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
-import { Header, Icon } from 'semantic-ui-react'
 import logo from './logo.svg';
 import './App.css';
+import Nav from './components/header/header'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header as='h2' icon>
-          <Icon name='settings' />
-          Account Settings
-          <Header.Subheader>
-            Manage your account settings and set e-mail preferences.
-          </Header.Subheader>
-        </Header>
+        <Nav />
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
