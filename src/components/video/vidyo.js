@@ -9,11 +9,9 @@ const style = {
 
 const Vidyo = () => (
   <Grid.Column width={1} className="noPadding">
-
-    <Segment className="noPadding" textAlign='center'>
-      <Label attached='bottom' style={style}>FirstName</Label>
+    <div textAlign='center'>
       <Image fluid src={placeholder} label={{ color: 'orange', as: 'a', corner: 'right', icon: 'hand paper' }}/>
-    </Segment>
+    </div>
   </Grid.Column>
 )
 
