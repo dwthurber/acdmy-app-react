@@ -10,7 +10,7 @@ const style = {
 const Vidyo = () => (
   <Grid.Column width={1} className="noPadding">
     <div textAlign='center'>
-      <Image fluid src={placeholder} label={{ color: 'orange', as: 'a', corner: 'right', icon: 'hand paper' }}/>
+      <Image fluid src={placeholder} label={{ color: 'blue', as: 'a', corner: 'right', icon: 'hand paper' }}/>
     </div>
   </Grid.Column>
 )
