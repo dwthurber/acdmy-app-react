@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Image, Icon, Popup, Message } from 'semantic-ui-react';
 import user from '../../images/user.svg';
+import Help from './help'
 
 const Notifications = {
   padding: '2em 3em',
@@ -23,18 +24,7 @@ const Settings = () => (
       </Popup.Content>
     </Popup>
 
-    <Popup
-      trigger={<Icon link name='help' circular size='small' color='grey' />}
-      on='click'
-      position='bottom right'
-      offset={10}
-      wide
-      style={Notifications}
-    >
-      <Popup.Content>
-        You are all up to date!
-      </Popup.Content>
-    </Popup>
+    <Help />
 
     <Popup
       trigger={<Image href='#' src={user} height="20" avatar spaced='left' />}

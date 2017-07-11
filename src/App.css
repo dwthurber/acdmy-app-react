@@ -20,10 +20,5 @@
   flex: 1;
   overflow: hidden;
   margin: 0!important;
-}
-
-.verticalMiddle {
-  position: absolute;
-  top: 40%;
-  margin-top: -250px;
+  width: 100%;
 }
