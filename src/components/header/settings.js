@@ -26,8 +26,9 @@ const Settings = () => (
 
     <Help />
 
+    <Icon link name='microphone' circular className="primaryIcon" spaced='left' />
     <Popup
-      trigger={<Image href='#' src={user} height="20" avatar spaced='left' />}
+      trigger={<Image href='#' src={user} height="20" avatar  />}
       on='click'
       position='bottom right'
       offset={5}

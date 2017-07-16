@@ -12,7 +12,7 @@ const Nav = () => (
       <Grid.Column textAlign='center'>
         <Actions />
       </Grid.Column>
-      <Grid.Column textAlign='right'>
+      <Grid.Column textAlign='right' verticalAlign='middle'>
         <Settings />
       </Grid.Column>
     </Grid.Row>
