@@ -3,7 +3,7 @@ import './App.css';
 import { Grid } from 'semantic-ui-react';
 import Nav from './components/header/nav'
 import Video from './components/video/video'
-import CollaborationContainer from './components/collaborations/container'
+import Blocks from './components/blocks/container'
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
           <Nav />
           <Video />
         </Grid>
-        <CollaborationContainer />
+        <Blocks />
       </div>
     );
   }

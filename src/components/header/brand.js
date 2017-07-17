@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import { Image } from 'semantic-ui-react';
+import { Item, Image } from 'semantic-ui-react';
 import logo from '../../images/acdmyA.png';
 
-const style = {
-  color: '#467495',
-}
-
 const Brand = () => (
-  <div>
-    <Image src={logo} height="20" avatar spaced='right' />
-    <span style={style}>Virtual Classroom of the Future</span>
-  </div>
+  <Item.Group link>
+    <Item>
+      <Item.Image size='20px' avatar src={logo} />
+      <Item.Content verticalAlign='middle'>Virtual Classroom of the Future</Item.Content>
+    </Item>
+  </Item.Group>
 )
 
 export default Brand
