@@ -4,6 +4,7 @@ import { Grid } from 'semantic-ui-react';
 import Nav from './components/header/nav'
 import Video from './components/video/video'
 import Blocks from './components/blocks/container'
+import PageDimmer from './Dimmer'
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <Video />
         </Grid>
         <Blocks />
+        <PageDimmer />
       </div>
     );
   }
