@@ -6,7 +6,7 @@ const Brand = () => (
   <Item.Group link>
     <Item>
       <Item.Image size='20px' avatar src={logo} />
-      <Item.Content verticalAlign='middle'>Virtual Classroom of the Future</Item.Content>
+      <Item.Content verticalAlign='middle'>The Classroom of the Future</Item.Content>
     </Item>
   </Item.Group>
 )

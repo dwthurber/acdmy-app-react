@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-import { Image, Icon, Popup, List } from 'semantic-ui-react';
-import user from '../../images/user.svg';
+import { Icon, List } from 'semantic-ui-react';
 import Help from './help'
-
-const Notifications = {
-  padding: '2em 3em',
-  width: '300px',
-  textAlign: 'center'
-}
+import Notifications from './notifications'
+import User from './user'
 
 const MicrophoneStyle = {
   position: 'relative',
@@ -21,39 +16,19 @@ const SmallMargin = {
 const Settings = () => (
   <List horizontal verticalAlign='middle'>
     <List.Item>
-      <Popup
-        trigger={<Icon link name='alarm' circular size='small' color='grey' />}
-        on='click'
-        position='bottom right'
-        offset={10}
-        wide
-        style={Notifications}
-      >
-        <Popup.Content>
-          You are all up to date!
-        </Popup.Content>
-      </Popup>
+      <Notifications />
     </List.Item>
 
     <List.Item  style={SmallMargin}>
       <Help />
     </List.Item>
+
     <List.Item style={SmallMargin}>
       <Icon link name='microphone' circular style={MicrophoneStyle} className="primaryIcon" />
     </List.Item>
+
     <List.Item style={SmallMargin}>
-      <Popup
-        trigger={<Image href='#' src={user} height="20" avatar  />}
-        on='click'
-        position='bottom right'
-        offset={5}
-        wide
-        style={Notifications}
-      >
-        <Popup.Content>
-          Name
-        </Popup.Content>
-      </Popup>
+      <User />
     </List.Item>
   </List>
 )
